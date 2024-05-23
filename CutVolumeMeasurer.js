@@ -125,7 +125,7 @@ export default class CutVolumeMeasurer {
     }
 
     addToolbar(container) {
-        this._toolbar = new Toolbar(this, {container: container});
+        this._toolbar = new Toolbar(this, { container: container });
     }
 
     startDrawing() {
